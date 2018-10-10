@@ -1,10 +1,10 @@
 {
-    "wanikaninotify_name": {
-        "message": "WaniKani Notifier",
+    "bunpronotify_name": {
+        "message": "Bunpro Notifier",
         "description": "The title of the extension."
     },
-    "wanikaninotify_description": {
-        "message": "Notifies you when you have more to study on WaniKani!",
+    "bunpronotify_description": {
+        "message": "Notifies you when you have more to study on Bunpro",
         "description": "The description of the extension."
     }
 }

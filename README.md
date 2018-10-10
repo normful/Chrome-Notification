@@ -1,4 +1,4 @@
-A Chrome extension that notifies you when you have more to study on WaniKani.com.
+A Chrome extension that notifies you when you have more to study on bunpro.jp
 
 ## License
 

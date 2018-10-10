@@ -1,21 +1,15 @@
 {
-  "name": "__MSG_wanikaninotify_name__",
-  "version": "0.3.0",
+  "name": "__MSG_bunpronotify_name__",
+  "version": "0.0.1",
   "manifest_version": 2,
-  "description": "__MSG_wanikaninotify_description__",
+  "description": "__MSG_bunpronotify_description__",
   "default_locale": "en",
   "icons": {"128": "icon_128.png"},
-  "background" : {"scripts": ["background.js"], "persistent": false},
+  "background" : {"scripts": ["background.js"], "persistent": true},
   "options_page": "options.html",
-  "content_scripts": [
-    {
-      "matches": ["*://www.wanikani.com/review/session"],
-      "js": ["review_page.js"]
-    }
-  ],
-  "permissions": ["alarms", "storage", "notifications", "https://www.wanikani.com/api/*"],
+  "permissions": ["alarms", "storage", "notifications", "https://www.bunpro.jp/api/*"],
   "browser_action": {
-    "default_title": "WaniKani Notifier",
+    "default_title": "Bunpro Notifier",
     "default_icon": "icon_128.png"
   },
   "web_accessible_resources": [
