@@ -92,7 +92,7 @@ function set_review_count(newReviewCount) {
     const oldReviewCount = data.reviews_available || 0;
     chrome.storage.local.set({ reviews_available: newReviewCount }, () => {
       if (newReviewCount > oldReviewCount) {
-        show_notification();
+        // show_notification();
       }
     });
   });
